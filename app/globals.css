@@ -31,3 +31,27 @@ body {
     text-wrap: balance;
   }
 }
+
+.blue-gradient {
+  background: linear-gradient(
+    132deg,
+    rgba(250, 250, 250, 1) 100%,
+    rgba(89, 184, 206, 1) 100%
+  );
+}
+
+.orange-gradient {
+  background: linear-gradient(
+    132deg,
+    rgba(250, 250, 250, 1) 100%,
+    rgba(237, 118, 35, 1) 100%
+  );
+}
+
+.yellow-gradient {
+  background: linear-gradient(
+    132deg,
+    rgba(250, 250, 250, 1) 100%,
+    rgba(235, 203, 33, 0.75) 100%
+  );
+}
