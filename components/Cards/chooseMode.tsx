@@ -18,7 +18,7 @@ const ChooseMode = ({
 }: ModeProps) => {
   return (
     <div className={`${cardCSS} bg-gradient-to-b  border rounded-xl h-[450px] w-[300px]  p-[30px]`}>
-      <div className=" h-[240px] w-[240px] rounded-lg relative">
+      <div className=" h-[240px] w-[240px] rounded-lg relative drop-shadow-md">
         <Image
           src={`/assets/choose-mode/${text}/img.jpg`}
           alt={text}
