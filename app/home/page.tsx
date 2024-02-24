@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className="bg-gradient-to-b from-white to-light-blue min-h-screen pt-20 ">
       <h1 className="text-[#333] text-6xl text-center font-bold ">
-        Choose Mode
+        Get Started
       </h1>
       <div className="flex items-center mt-20 justify-around max-w-[1180px] mx-auto">
         <ChooseMode

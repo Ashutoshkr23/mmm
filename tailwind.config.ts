@@ -20,6 +20,8 @@ const config: Config = {
         'Black' : '#333',
         'Yellow' : '#EBCB21',
         'orange' : '#ED7623',
+        'orange-light' : '#AF5C21',
+        'Yellow-light' : '#E0D774',
 
       },
     },
