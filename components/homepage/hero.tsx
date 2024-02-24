@@ -16,7 +16,7 @@ const Hero = () => {
             games. Join us on your journey to mental math mastery today
           </p>
           <Button
-            href="/choose-mode"
+            href="/home"
             customCSS="h-10 bg-orange px-10 w-40 py-2 rounded-2xl"
             text="Try it now"
           />
