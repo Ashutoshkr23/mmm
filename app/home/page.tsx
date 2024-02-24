@@ -9,14 +9,14 @@ const page = () => {
       <div className="flex items-center mt-20 justify-around max-w-[1180px] mx-auto">
         <ChooseMode
           href="/learn"
-          customCSS=" bg-light-blue"
+          customCSS=" bg-Yellow-light border border-Yellow"
           text="Learn"
           cardCSS=" from-white to-Yellow  border-Yellow "
           cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
         />
         <ChooseMode
           href="/practice"
-          customCSS=" bg-light-blue"
+          customCSS=" bg-light-blue border border-Dark-blue"
           text="Practice"
           cardCSS=" from-white to-Dark-blue  border-Dark-blue "
           cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud"
