@@ -9,11 +9,13 @@ const SumGame: React.FC = () => {
   const [endTime, setEndTime] = useState<number | null>(null);
   const [gameOver, setGameOver] = useState(false);
   const [enteredAnswer, setEnteredAnswer] = useState<number | null>(null);
+  const [num1, num2, sum, operator] = generateNumbersAndSum();
 
   const handleStart = () => {
     setStarted(true);
     setStartTime(Date.now());
     setQuestionNumber(1);
+    
   };
 
   const handleAnswer = (input: number, sum: number) => {
@@ -55,7 +57,7 @@ const SumGame: React.FC = () => {
     );
   }
 
-  const [num1, num2, sum, operator] = generateNumbersAndSum();
+ 
 
   return (
     <div>
