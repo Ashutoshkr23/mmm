@@ -33,10 +33,11 @@ const Test: React.FC = () => {
     setTempAnswer(inputValue)
     const inputLength = String(inputValue).length;
     const sumLength = String(result).length;
-    console.log(inputLength , sumLength , tempAnswer ,result ,number1 , number2)
     if (inputLength === sumLength) {
         setEnteredAnswer(inputValue)
-        handleAnswer(enteredAnswer , result)
+        handleAnswer(inputValue , result)
+        console.log("handle answer called")
+        console.log(inputValue)
       }
   };
 
@@ -47,7 +48,6 @@ const Test: React.FC = () => {
     }
     if (questionNumber < 10) {
       setQuestionNumber(questionNumber + 1);
-      setEnteredAnswer(null); 
       setScore(score + 1);
       const [num1, num2, sum, operator] = generateNumbersAndSum();
       setNumber1(num1)
@@ -60,7 +60,6 @@ const Test: React.FC = () => {
       setGameOver(true);
       setEndTime(Date.now());
     }
-    console.log(input, result, score);
   };
 
   const handleRetry = () => {
