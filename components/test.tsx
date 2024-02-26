@@ -48,7 +48,6 @@ const Test: React.FC = () => {
     }
     if (questionNumber < 60) {
       setQuestionNumber(questionNumber + 1);
-      setScore(score + 1);
       const [num1, num2, sum, operator] = generateNumbersAndSum();
       setNumber1(num1)
       setNumber2(num2)
