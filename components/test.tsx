@@ -79,10 +79,12 @@ const Test: React.FC = () => {
   if (gameOver) {
     const timeTaken = endTime && startTime ? (endTime - startTime) / 1000 : 0;
     return (
-      <div className="flex justify-center items-center">
-        <p>Score: {score}/60</p>
-        <p>Time taken: {timeTaken} seconds</p>
-        <button onClick={handleRetry}>Retry</button>
+      <div className="flex flex-col gap-6  justify-center items-center">
+        <p className="text-3xl">Score: {score}/60</p>
+        <p className="text-3xl">Time taken: {timeTaken} seconds</p>
+        <button className="h-10 bg-Dark-blue  px-10 w-40 py-2 rounded-2xl mx-auto flex justify-center items-center " onClick={handleRetry}>
+      <p className="text-Black text-3xl"> Retry </p>
+      </button>
       </div>
     );
   }
