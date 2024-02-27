@@ -71,13 +71,15 @@ const Test: React.FC = () => {
   };
 
   if (!started) {
-    return <button onClick={handleStart}>Start</button>;
+    return <button className="h-10 bg-Dark-blue  px-10 w-40 py-2 rounded-2xl mx-auto flex justify-center items-center " onClick={handleStart}>
+      <p className="text-Black text-3xl"> Start </p>
+      </button>;
   }
 
   if (gameOver) {
     const timeTaken = endTime && startTime ? (endTime - startTime) / 1000 : 0;
     return (
-      <div>
+      <div className="flex justify-center items-center">
         <p>Score: {score}/60</p>
         <p>Time taken: {timeTaken} seconds</p>
         <button onClick={handleRetry}>Retry</button>
@@ -88,17 +90,20 @@ const Test: React.FC = () => {
  
 
   return (
-    <div>
-      <p>Question {questionNumber}/60:</p>
-      <p>
+    <div className="flex flex-col items-center justify-center">
+      <p className="text-4xl">Question {questionNumber}/60:</p>
+      <div className="flex gap-4">
+      <p className="text-4xl mt-4">
         {number1} {operators} {number2} = ?
       </p>
       <input
-        className="text-Black"
+        className="text-Black mt-4 text-4xl rounded w-20 border-black border"
         type="number"
         value={tempAnswer === null ? "" : tempAnswer}
         onChange={handleChange}
       />
+      </div>
+      
     <p></p>
     </div>
   );
