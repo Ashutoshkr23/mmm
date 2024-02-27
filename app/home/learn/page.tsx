@@ -3,7 +3,7 @@ import Learn from "@/components/Cards/learn";
 const page = () => {
   return (
     <div>
-      <h1 className="text-Black text-center text-6xl">learn</h1>
+      <h1 className="text-Black text-center text-3xl lg:text-6xl">learn</h1>
       <div className="flex flex-wrap justify-around w-full  mx-auto mt-20 gap-10 ">
         <Learn link="addition" text="ADDITION" />
         <Learn link="subtraction" text="SUBTRACTION" />
