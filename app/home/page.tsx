@@ -3,7 +3,7 @@ import ChooseMode from "@/components/Cards/chooseMode";
 const page = () => {
   return (
     <div className="bg-gradient-to-b from-white to-light-blue min-h-screen pt-20 ">
-      <h1 className="text-[#333] text-4xl lg:text-6xl text-center font-bold ">
+      <h1 className="text-[#333]  text-4xl lg:text-6xl text-center font-bold ">
         Get Started
       </h1>
       <div className="flex flex-col md:flex-row md:flex-wrap gap-10 items-center mt-20 justify-around max-w-[1180px] mx-auto">

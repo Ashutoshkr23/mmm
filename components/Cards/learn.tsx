@@ -8,9 +8,9 @@ interface LearnProps{
 const Learn = ({text , link} : LearnProps) => {
 
   return (
-    <div className='w-[500px] h-16 cursor-pointer bg-Dark-blue hover:bg-light-blue hover:border-Dark-blue hover:border-2 rounded-xl flex items-center justify-center'>
+    <div className='w-72 md:w-[500px] h-12 md:h-16 cursor-pointer bg-Dark-blue hover:bg-light-blue hover:border-Dark-blue hover:border-2 rounded-xl flex items-center justify-center'>
         <Link href={`/home/learn/${link}`}>
-        <h1 className='text-4xl w-full h-full flex hover:text-Dark-blue justify-center items-center'>{text}</h1>
+        <h1 className='text-xl md:text-4xl w-full h-full flex hover:text-Dark-blue justify-center items-center'>{text}</h1>
         </Link>
        
     </div>
