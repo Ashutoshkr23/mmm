@@ -11,7 +11,8 @@ const page = () => {
         <Learn link="division" text="DIVISION" />
         <Learn link="tables" text="TABLES" />
         <Learn link="square" text="SQUARE" />
-        <Learn link="cube" text="CUBE" />
+        <Learn link="squareroot" text="SQUARE ROOT" />
+        <Learn link="cuberoot" text="CUBE ROOT" />
         <Learn link="ratio" text="RATION & PERCENTAGE" />
       </div>
     </div>
