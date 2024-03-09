@@ -10,7 +10,7 @@ const Hero = () => {
             Unlock Your Mental Math Potential
           </h1>
           <p className="text-lg lg:text-2xl ">
-            Unleash your math mastery with Math Mastermind! Whether you&apos;re
+            Unleash your Mental Math mastery with Math Mastermind! Whether you&apos;re
             boosting calculation speed, refining number sense, or sharpening
             problem-solving skills, our platform offers tailored resources and
             games. Join us on your journey to mental math mastery today
