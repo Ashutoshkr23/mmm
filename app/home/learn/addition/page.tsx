@@ -6,7 +6,7 @@ const page = () => {
     <div >
       <h1 className='text-Black text-6xl text-center '> Choose Level</h1>
       <Button 
-      href="/home/learn/addition/level"
+      href="/home/learn/level"
       customCSS="h-10 w-40 bg-orange mt-10"
       text="Level 1"
       />

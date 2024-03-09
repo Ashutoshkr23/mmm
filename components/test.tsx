@@ -2,7 +2,6 @@
 import generateNumbersAndSum from "@/lib/function";
 import React, { useState } from "react";
 
-
 const Test: React.FC = () => {
   const [started, setStarted] = useState(false);
   const [questionNumber, setQuestionNumber] = useState(0);
@@ -57,6 +56,7 @@ const Test: React.FC = () => {
       // Reset entered answer to zero for the next question
     } else {
       setGameOver(true);
+      setTempAnswer(null)
       setEndTime(Date.now());
     }
   };
